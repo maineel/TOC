@@ -1,0 +1,9 @@
+States: {P, Q}
+Alphabet: {a, b}
+Start State: P
+Accept States: {Q}
+Transitions:
+P -> a -> Q
+P -> b -> P
+Q -> a -> Q
+Q -> b -> P
